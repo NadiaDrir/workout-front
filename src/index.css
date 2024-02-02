@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+button {
+  border: 0;
+  padding: 15px;
+  border-radius: 4px;
+  color:black;
+  width:180px;
+  background-color: rgb(133, 255, 127);
+  cursor: pointer;
+  margin-left: 50px;
+}
+#form{
+  display: flex;
+  flex-direction:column;
+  width: 30%;
+  justify-content: flex-end; 
+  align-items: flex-start;
+  gap:10px;
+  
+
+}
+.navigation{
+  display: flex;
+  padding:70px ;
+    font-weight: 100;
+  width: 100%;
+  height: 100%;
+  background-color: #f5eeee;
+  text-align: left;
+  color: black;
+  margin: 0%;
+  font-size: 50px;
+
+}
+input{
+  height:50px;
+  width:250px;
+  border-radius: 10px;
+}
+.det{
+  width:70%
+ 
+}
+#new{
+  display:flex;
+  flex-direction: column;
+  background-color:#f5eeeeda;
+  padding:15px;
+  border-radius: 10px;
+
+  margin:50px;
+  margin-bottom: 20px;
+  }
+  #new h1{
+    font-size:1.5rem ;
+  }
+.main{
+  display:flex;
+  flex-direction: row;
+  background-color:white;
+  width: auto;
+  height:100%;
+
+ 
+}
