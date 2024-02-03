@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
    
-    axios.get('http://localhost:4000/api/workouts')  //ramene moi de API URL cequi correspond a ma variable search
+    axios.get('https://workout-cf6n.onrender.com/api/workouts')  //ramene moi de API URL cequi correspond a ma variable search
       //.then(res=>console.log(res.data.search))// puis recupere dansune la fonction res les donné data.search
       .then(res => {setworkout(res.data.workout)})//je recupre dans la variable set movie
       .catch(err => console.log(err))// si il a erreur il faut signalé 
